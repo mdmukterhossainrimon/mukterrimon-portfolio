@@ -164,6 +164,7 @@ footer p{font-family:'Space Mono',monospace;font-size:11px;color:var(--gray);let
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
+    <li><a href="portfolio-gallery.html">Portfolio</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
@@ -176,6 +177,7 @@ footer p{font-family:'Space Mono',monospace;font-size:11px;color:var(--gray);let
 <div class="mobile-menu" id="mobileMenu">
   <a href="#about" onclick="toggleMenu()">About</a>
   <a href="#skills" onclick="toggleMenu()">Skills</a>
+  <a href="portfolio-gallery.html" onclick="toggleMenu()">Portfolio</a>
   <a href="#experience" onclick="toggleMenu()">Experience</a>
   <a href="#contact" onclick="toggleMenu()">Contact / Hire Me</a>
 </div>
@@ -191,7 +193,7 @@ footer p{font-family:'Space Mono',monospace;font-size:11px;color:var(--gray);let
   <p class="hero-role">Full Stack Digital Marketer &amp; <em>AI Automation (n8n) Expert</em></p>
   <p class="tagline">Helping businesses generate qualified leads, automate workflows, improve search visibility, and create high-converting digital assets.</p>
   <div class="hero-btns">
-    <a class="btn-p" href="#skills">View My Work</a>
+    <a class="btn-p" href="portfolio-gallery.html">View My Work</a>
     <a class="btn-o" href="#contact">Let's Talk</a>
   </div>
   <div class="scroll-hint">
@@ -292,6 +294,38 @@ footer p{font-family:'Space Mono',monospace;font-size:11px;color:var(--gray);let
   </div>
 </section>
 
+<!-- PORTFOLIO PREVIEW -->
+<section id="portfolio" class="section">
+  <div class="sec-head reveal">
+    <span class="sec-tag">Portfolio</span>
+    <h2 class="sec-title">My Work</h2>
+    <div class="sec-rule"></div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-bottom:36px">
+    <div class="reveal" style="background:var(--card);border:1px solid var(--border);padding:28px 24px">
+      <div style="font-size:22px;margin-bottom:12px">📊</div>
+      <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:8px">Lead Generation</div>
+      <div style="font-size:12px;color:var(--gray);line-height:1.6">2000+ verified B2B leads for law firms, consulting companies & LegalShield associates across the US.</div>
+      <div style="margin-top:14px;font-family:'Space Mono',monospace;font-size:10px;color:var(--cyan)">2 Projects</div>
+    </div>
+    <div class="reveal" style="background:var(--card);border:1px solid var(--border);padding:28px 24px">
+      <div style="font-size:22px;margin-bottom:12px">🔍</div>
+      <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:8px">SEO Projects</div>
+      <div style="font-size:12px;color:var(--gray);line-height:1.6">12.3K impressions & Google Page 1 ranking for trinostudio.com — beating Forbes and ClickUp.</div>
+      <div style="margin-top:14px;font-family:'Space Mono',monospace;font-size:10px;color:var(--cyan)">2 Projects</div>
+    </div>
+    <div class="reveal" style="background:var(--card);border:1px solid var(--border);padding:28px 24px">
+      <div style="font-size:22px;margin-bottom:12px">📧</div>
+      <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:8px">Email Outreach</div>
+      <div style="font-size:12px;color:var(--gray);line-height:1.6">Personalized cold email campaigns to 50+ businesses with Mailtrack scheduling & open tracking.</div>
+      <div style="margin-top:14px;font-family:'Space Mono',monospace;font-size:10px;color:var(--cyan)">1 Project</div>
+    </div>
+  </div>
+  <div class="reveal" style="text-align:center">
+    <a href="portfolio-gallery.html" class="btn-p" style="display:inline-block">View Full Portfolio Gallery →</a>
+  </div>
+</section>
+
 <!-- EXPERIENCE -->
 <section id="experience" class="section">
   <div class="sec-head reveal">
@@ -389,3 +423,4 @@ window.addEventListener('scroll',()=>{
 </script>
 </body>
 </html>
+
